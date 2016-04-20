@@ -28,6 +28,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPS.BusinessProcess.Core.Services", "src\PPS.BusinessProcess.Core.Services\PPS.BusinessProcess.Core.Services.csproj", "{E034A828-84A2-4A7F-9D91-B6CB8C519C41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPS.BusinessProcess.Infrastructure.Repository", "src\PPS.BusinessProcess.Infrastructure.Repository\PPS.BusinessProcess.Infrastructure.Repository.csproj", "{B5DC6A8C-1582-4110-99C8-3AB8C74F17CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DF4D309-5AFD-4569-B6AD-74264220E79D} = {2DF4D309-5AFD-4569-B6AD-74264220E79D}
+		{EBAA997A-D7B8-4C29-AC87-664A65D39FE0} = {EBAA997A-D7B8-4C29-AC87-664A65D39FE0}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPS.BusinessProcess.Infrastructure.Services", "src\PPS.BusinessProcess.Infrastructure.Services\PPS.BusinessProcess.Infrastructure.Services.csproj", "{3CD10B03-DCA2-4C07-960D-064F960F0034}"
 EndProject

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PPS.BusinessProcess.Infrastructure.Repository
+namespace PPS.BusinessProcess.Core.Domain
 {
-    public class Class1
+    public enum IssueType
     {
+        Pothole
     }
 }
